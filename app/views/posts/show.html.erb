@@ -1,10 +1,19 @@
-<p style="color: green"><%= notice %></p>
+<% content_for :title, @post.title %>
 
-<%= render @post %>
+<% if notice %>
+  <div class="notice"><%= notice %></div>
+<% end %>
 
-<div>
-  <%= link_to "Edit this post", edit_post_path(@post) %> |
-  <%= link_to "Back to posts", posts_path %>
+<div class="post" style="margin: 2rem 0;">
+  <h1><%= @post.title %></h1>
+  
+  <div class="post-content">
+    <%= @post.content %>
+  </div>
 
-  <%= button_to "Destroy this post", @post, method: :delete %>
+  <div class="post-actions">
+    <%= link_to "Edit", edit_post_path(@post), class: "button" %>
+    <%= link_to "Back", posts_path, class: "button" %>
+    <%= button_to "Delete", @post, method: :delete, class: "button danger", form: { style: 'display: inline-block' }, data: { turbo_confirm: "Are you sure?" } %>
+  </div>
 </div>

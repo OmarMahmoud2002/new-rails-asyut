@@ -1,16 +1,18 @@
-<p style="color: green"><%= notice %></p>
-
 <% content_for :title, "Posts" %>
 
-<h1>Posts</h1>
+<% if notice %>
+  <div class="notice"><%= notice %></div>
+<% end %>
 
-<div id="posts">
-  <% @posts.each do |post| %>
-    <%= render post %>
-    <p>
-      <%= link_to "Show this post", post %>
-    </p>
-  <% end %>
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+  <h1>Posts</h1>
+  <%= link_to "New post", new_post_path, class: "button" %>
 </div>
 
-<%= link_to "New post", new_post_path %>
+<div id="posts">
+  <% if @posts.any? %>
+    <%= render @posts %>
+  <% else %>
+    <p>No posts yet. Be the first to create one!</p>
+  <% end %>
+</div>

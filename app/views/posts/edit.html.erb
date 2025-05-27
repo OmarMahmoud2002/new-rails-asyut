@@ -1,12 +1,10 @@
-<% content_for :title, "Editing post" %>
+<% content_for :title, "Editing #{@post.title}" %>
 
-<h1>Editing post</h1>
+<div style="max-width: 800px; margin: 0 auto;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+    <h1>Editing Post</h1>
+    <%= link_to "Back to post", @post, class: "button" %>
+  </div>
 
-<%= render "form", post: @post %>
-
-<br>
-
-<div>
-  <%= link_to "Show this post", @post %> |
-  <%= link_to "Back to posts", posts_path %>
+  <%= render "form", post: @post %>
 </div>
