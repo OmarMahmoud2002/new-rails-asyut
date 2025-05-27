@@ -1,0 +1,24 @@
+current directory: /home/omar/iti/Ruby/new-rails-asyut/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
+/home/omar/.asdf/installs/ruby/3.2.6/bin/ruby extconf.rb
+checking for rb_category_warn()... yes
+checking for timezone in time.h with  -Werror... yes
+checking for altzone in time.h with  -Werror... no
+creating Makefile
+
+current directory: /home/omar/iti/Ruby/new-rails-asyut/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250526-193453-1fosl sitelibdir\=./.gem.20250526-193453-1fosl clean
+
+current directory: /home/omar/iti/Ruby/new-rails-asyut/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250526-193453-1fosl sitelibdir\=./.gem.20250526-193453-1fosl
+compiling date_core.c
+compiling date_parse.c
+compiling date_strftime.c
+compiling date_strptime.c
+linking shared-object date_core.so
+
+current directory: /home/omar/iti/Ruby/new-rails-asyut/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250526-193453-1fosl sitelibdir\=./.gem.20250526-193453-1fosl install
+/usr/bin/install -c -m 0755 date_core.so ./.gem.20250526-193453-1fosl
+
+current directory: /home/omar/iti/Ruby/new-rails-asyut/vendor/bundle/ruby/3.2.0/gems/date-3.4.1/ext/date
+make DESTDIR\= sitearchdir\=./.gem.20250526-193453-1fosl sitelibdir\=./.gem.20250526-193453-1fosl clean

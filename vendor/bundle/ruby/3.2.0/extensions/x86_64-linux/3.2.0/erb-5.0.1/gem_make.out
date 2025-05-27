@@ -1,0 +1,18 @@
+current directory: /home/omar/iti/Ruby/new-rails-asyut/vendor/bundle/ruby/3.2.0/gems/erb-5.0.1/ext/erb/escape
+/home/omar/.asdf/installs/ruby/3.2.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/omar/iti/Ruby/new-rails-asyut/vendor/bundle/ruby/3.2.0/gems/erb-5.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250526-193453-cct0a2 sitelibdir\=./.gem.20250526-193453-cct0a2 clean
+
+current directory: /home/omar/iti/Ruby/new-rails-asyut/vendor/bundle/ruby/3.2.0/gems/erb-5.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250526-193453-cct0a2 sitelibdir\=./.gem.20250526-193453-cct0a2
+compiling escape.c
+linking shared-object erb/escape.so
+
+current directory: /home/omar/iti/Ruby/new-rails-asyut/vendor/bundle/ruby/3.2.0/gems/erb-5.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250526-193453-cct0a2 sitelibdir\=./.gem.20250526-193453-cct0a2 install
+/usr/bin/install -c -m 0755 escape.so ./.gem.20250526-193453-cct0a2/erb
+
+current directory: /home/omar/iti/Ruby/new-rails-asyut/vendor/bundle/ruby/3.2.0/gems/erb-5.0.1/ext/erb/escape
+make DESTDIR\= sitearchdir\=./.gem.20250526-193453-cct0a2 sitelibdir\=./.gem.20250526-193453-cct0a2 clean
